@@ -22,7 +22,8 @@ class App < Sinatra::Base
        
         @num1 = params[:num1] 
         @num2 = params[:num2]
-        puts (@num1 * @num2)
+        product = @num1 * @num2
+        product
      end
 
 end
